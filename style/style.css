@@ -5,15 +5,21 @@
 }
 
 .header {
+    height: 100%;
     display: flex;
     background-color: rgb(240, 240, 91);
-    
+    justify-content: space-around;
 }
 
-
-#text1{
+#logo1 {
     display: flex;
-    padding: 0% 15%;
+    height: 30%;
+    align-items: start;
+}
+
+#logo2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--color-terciario);
 }
