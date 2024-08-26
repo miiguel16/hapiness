@@ -117,5 +117,35 @@
 .part4 {
     width: 100%;
     background-color: var(--a--color);
-    height: 1000px;
+    height: 1150px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+    font-size: 40px;
+    margin-left: 220px;
+}
+
+#left p{
+    font-size: 20px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+#left button {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 135px;
+}
+
+#left img {
+    position: absolute;
+    display: flex;
+    margin-top: 123px;
+    margin-left: 500px;
+    
 }
