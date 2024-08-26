@@ -4,22 +4,118 @@
     box-sizing: content-box;
 }
 
+:root {
+    --a--color: #F5CB00;
+}
+
+
 .header {
     height: 100%;
     display: flex;
-    background-color: rgb(240, 240, 91);
-    justify-content: space-around;
+    background-color: var(--a--color);
 }
 
 #logo1 {
     display: flex;
-    height: 30%;
-    align-items: start;
+    height: 50%;
+    padding: 0px 120px;
+    padding-right: 1100px
 }
 
 #logo2 {
+    height: 50%;
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part2{
+    display: flex;
+    width: 100%;
+    height: 870px;
+}
+
+#image01 {
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+#right {
+    margin-right: 80px;
+    margin-top: 115px;
+    width: 50%;
     display: flex;
     align-items: center;
-    gap: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+#right h2 {
+    margin-right: 170px;
+    font-size: 80px;
+    width: 650px;
+}
+
+#right p {
+    font-size: 23px;
+    display: flex;
+    margin-right: 300px;
+    width: 500px;
+}
+
+#buttom1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--a--color);
+    font-size: 18px;
+    height: 40px;
+    width: 140px;
+    margin-top: 35px;
+    margin-right: 650px;
+}
+
+.part3 {
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    margin-top: -205px;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    height: 440px;
+    width: 70%;
+    border: 2px solid transparent;
+    /* background-color: rgba(170, 170, 163, 0.199); */
+}
+
+#box1{
+    height: 50%;
+    margin-left: 70px;
+    background-size: var(--a--color);
+}
+
+#box1 h2 {
+    color: var(--a--color);
+    font-size: 45px;
+    width: 300px;
+}
+
+#box1 p {
+    font-size: 20px;
+    width: 300px;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 250px;
+    width: 50%;
+}
+
+.part4 {
+    width: 100%;
+    background-color: var(--a--color);
+    height: 1000px;
 }
