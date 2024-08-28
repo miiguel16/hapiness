@@ -350,12 +350,12 @@
     background-color: white;
 }
 
-.box1 {
+.box01 {
     display: flex;
     width: 50%;
 }
 
-#box-right {
+#box-right2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -367,13 +367,13 @@
     margin-top: 200px;
 }
 
-#box-right label {
+#box-right2 label {
     display: flex;
     margin-top: 60px;
     margin-right: 460px;
 }
 
-#box1 {
+#box01 {
     display: flex;
     height: 20px;
     width: 120px;
