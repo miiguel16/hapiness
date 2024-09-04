@@ -165,29 +165,30 @@
 
 .box5 {
     height: 610px;
-    width: 67%;
+    width: 75%;
     background-color:#E6E6E6;
     display: flex;
     align-items: center;
-    margin-left: 210px;
+    margin-left: 240px;
     margin-top: 100px;
     border: 2px solid transparent;
 }
 
 #box-left {
-    width: 50%;
+    width: 40%;
 }
 
 #box-left img {
     height: 610px;
-    width: 600px;
+    width: 550px;
+    margin-top: 150px;
 }
 
 #box-right {
     display: flex;
     margin-bottom: 200px;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     height: 60%;
 }
 
@@ -196,6 +197,7 @@
     font-size: 70px;
     color: var(--a--color);
     padding: 0 0 10px;
+    margin-right: 700px;
 }
 
 #box-right p{
@@ -371,87 +373,95 @@
     background-color: white;
 }
 
-.box-down1 {
+.section-7 {
+    width: 100%;
+    height: 930px;
     display: flex;
+}
+
+
+.div1-sec7 {
     width: 50%;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#box-right2 {
+
+.divInputs-Sec7 {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.form-container {
+    background-color: #000;
+    padding: 60px;
+    border: 3px solid #fff;
+    width: 470px;
+}
+
+.input-box1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inputName {
+    width: 200px;
+}
+
+.inputSurname {
+    width: 200px;
+}
+
+.input-box {
     display: flex;
     flex-direction: column;
-    background: black;
-    color: white;
-    width: 65%;
-    height: 620px;
-    margin-left: 200px;
-    margin-top: 200px;
-}
-
-#box-right2 label {
-    display: flex;
-}
-
-#up {
-    display: flex;
-    flex-direction: column;
-    height: 30%;
-    width: 65%;
-    color: white;
-    margin-left: 10px;
-}
-
-#box01 {
-    display: flex;
-    height: 20px;
-    width: 100px;
-    background-color: #000000;
-    border-color: white;
-    flex-direction: column;
-}
-
-#box02 {
-    display: flex;
-    flex-direction: column;
-    height: 20px;
-    width: 120px;
-    background-color: #000000;
-    border-color: white;
-    margin-left: 50px;
-}
-
-#up label {
-    display: flex;
     margin-bottom: 15px;
-    justify-content: space-between;
 }
 
-#down {
-    display: flex;
-    flex-direction: column;
+.input-box label {
+    margin-bottom: 10px;
 }
 
-#box03 {
-    display: flex;
-    height: 20px;
-    width: 120px;
-    background-color: #000000;
-    border-color: white;
+.input-box input,
+.input-box textarea {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
 }
 
-#box04 {
-    display: flex;
-    height: 20px;
-    width: 120px;
-    background-color: #000000;
-    border-color: white;
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    border-color: #F5CB00;
 }
 
-#box05 {
-    display: flex;
-    height: 20px;
-    width: 120px;
-    background-color: #000000;
-    border-color: white;
+
+
+.textareaMessage {
+    resize: none;
+}
+
+.lorem-text {
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    width: 500px;
+    font-weight: 600;
+
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 #box-left {
@@ -459,6 +469,8 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    margin-right: 300px;
+    margin-bottom: 150px;
 }
 
 #box-left h2 {
@@ -473,7 +485,7 @@
 #box-left p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    margin-top: 15px;
+    margin-top: 15 px;
     width: 550px;
 }
 
@@ -607,13 +619,24 @@
     background-color:var(--a--color);
 }
 
-#images img{
-    margin-left: 10px;
+#images{
+    display: flex;
+    margin-left: 1300px;
     filter: invert(100%) hue-rotate(70deg) brightness(1.2);
-    width: 20px;
+    width: 23px;
     height: 20px;
-    ma: 600px;
     padding-top: 652px;
-
 }
 
+
+
+@media screen and (max-width: 480px) {
+#logo1 {
+    padding-right: 10px;
+}
+
+.header {
+    width: 100%;
+}
+    
+}
